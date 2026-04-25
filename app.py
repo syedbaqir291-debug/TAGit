@@ -155,7 +155,7 @@ def main():
 
     selected_chapters = sidebar(mes)
 
-    st.title("🏥 JCI Observation Tagger by S M Baqir")
+    st.title("🏥 Tag it by S M Baqir")
     st.markdown(
         "Type your survey observation in plain language. "
         "The tool will find the **most relevant Measurable Elements** from JCI 8th Edition."
