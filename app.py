@@ -13,7 +13,7 @@ from pathlib import Path
 
 # ── Page config ────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="JCI Observation Tagger",
+    page_title="JCI Observation Tagger by S M Baqir",
     page_icon="🏥",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -155,7 +155,7 @@ def main():
 
     selected_chapters = sidebar(mes)
 
-    st.title("🏥 JCI Observation Tagger")
+    st.title("🏥 JCI Observation Tagger S M Baqir")
     st.markdown(
         "Type your survey observation in plain language. "
         "The tool will find the **most relevant Measurable Elements** from JCI 8th Edition."
